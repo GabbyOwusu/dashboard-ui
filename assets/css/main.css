@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  font-family: "ClashGrotesk";
+  max-height: 100vh;
+}
+
+li {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("~/assets/fonts/ClashGrotesk-Light.otf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("~/assets/fonts/ClashGrotesk-Regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("~/assets/fonts/ClashGrotesk-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("~/assets/fonts/ClashGrotesk-Bold.otf");
+  font-weight: 700;
+}
+
+.rotate {
+  transform: rotate(-90deg);
+  transition: all 300ms ease-in-out;
+}
+
+.rotate2 {
+  transform: rotate(0);
+  transition: all 300ms ease-in-out;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.scrollable {
+  overflow: scroll;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
