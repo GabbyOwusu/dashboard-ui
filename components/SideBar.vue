@@ -5,7 +5,9 @@
     <div>
       <div class="mb-4 flex items-center justify-between">
         <div class="flex items-center">
-          <div class="h-4 w-4 bg-slate-400 mr-2" />
+          <div
+            class="h-4 w-4 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg mr-2"
+          />
           <h1 class="font-medium">Cube</h1>
         </div>
         <div class="flex items-center">

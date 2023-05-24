@@ -66,7 +66,7 @@
         <img
           height="12"
           width="12"
-          src="~/assets/images/plus_icon.svg"
+          src="~/assets/images/plus_icon_grey.svg"
           alt=""
         />
       </div>
